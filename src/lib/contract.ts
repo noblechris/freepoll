@@ -1,7 +1,7 @@
 import { ethers } from 'ethers';
 
 // Replace this with your deployed contract address on Sepolia
-export const CONTRACT_ADDRESS = "YOUR_CONTRACT_ADDRESS_HERE";
+export const CONTRACT_ADDRESS = "0x382aCDe3F3497FFa7a9D98c8481F9cdf7f02F69c";
 
 export const CONTRACT_ABI = [
   "event PollCreated(uint256 indexed pollId, string title, address indexed creator, uint256 endTime)",
